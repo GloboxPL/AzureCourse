@@ -22,3 +22,5 @@ void Process(ReturnDTO returnDto)
 {
 	Console.WriteLine($"Id: {returnDto.Id}\n\tUser: {returnDto.User}\n\tAddress: {returnDto.Address}");
 }
+
+record ReturnDTO(int Id, string User, string Address);
